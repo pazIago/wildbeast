@@ -1,0 +1,16 @@
+.ads {
+  padding: 30px;
+  background: var(--w-1);
+  display: grid;
+  gap: 30px;
+  align-content: start;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  max-width: 100%;
+  grid-area: ads;
+ }
+
+
+.ads img {
+  border-radius: 5px;
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+@import "./geral.css";
+@import "./utility.css";
+
+@import "./header.css";
+@import "./sidenav.css";
+@import "./content.css";
+@import "./ads.css";
+@import "./footer.css";
+
+@import "./queries.css"

@@ -1,0 +1,29 @@
+.header {
+  background: var(--gradient);
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.header ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header li {
+  background: var(--b-2);
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.header li:hover {
+  background: var(--b-hover);
+}

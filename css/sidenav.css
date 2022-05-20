@@ -1,0 +1,25 @@
+.sidenav {
+  grid-area: sidenav;
+  background-color: var(--w-1);
+}
+
+.sidenav ul {
+  padding: 30px;
+}
+
+.sidenav li {
+  padding: 20px;
+  background-color: var(--w);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+  cursor: pointer;
+  max-width: 100px;
+  min-width: 60px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.sidenav li:hover {
+  background-color: var(--c-1);
+}

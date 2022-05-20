@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+  .structure {
+    grid-template-areas:
+      "header   header   header"
+      "sidenav  content  content"
+      "sidenav  ads      ads"
+      "footer   footer   footer";
+  }
+}
+
+@media (max-width: 800px) {
+  .structure {
+    grid-template-areas:
+      "header   header   header"
+      "sidenav  sidenav  sidenav"
+      "content  content  content"
+      "ads      ads      ads"
+      "footer   footer   footer";
+  }
+
+  .sidenav {
+    overflow-y: scroll;
+  }
+  .sidenav ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .sidenav li {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+  }
+}

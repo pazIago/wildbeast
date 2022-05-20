@@ -1,0 +1,10 @@
+.footer {
+  grid-area: footer;
+  background: var(--gradient);
+  text-align: center;
+  padding: 30px;
+}
+
+.footer p {
+  color: var(--w);
+}
